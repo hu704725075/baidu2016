@@ -1,0 +1,45 @@
+@charset "utf-8";
+body {
+	background: url(../img/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.welcome {
+	height: 150px;
+	width: 300px;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+
+}
+.welcome h1 {
+	font-family: "微软雅黑";
+	line-height: 10px;
+	font-weight: 500;
+}
+.welcome .shuru {
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+	outline: none;
+}
+.welcome .btn_welcome {
+	position: absolute;
+	right: 57px;
+	width: 150px;
+	height: 30px;
+	font-size:18px;
+	font-family: "微软雅黑";
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: #EEC900;
+	margin: 5px 55px 0px 0px;/*元素之间的距离*/
+	border-radius: 15px 0px 15px 0px;/*按钮的圆角设定上右下左*/
+}
+/*按钮变色设置*/
+.welcome .btn_welcome:hover {
+	background: #f47c20;
+}

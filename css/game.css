@@ -1,0 +1,63 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url(../img/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#showText {
+	width: 1150px;
+	height: 550px;
+	background: url(../img/showtextbg.jpg);
+
+	background: cover;
+	position: absolute;
+	margin: 15px 100px 0 100px;
+	border: 5px dashed black;
+	border-radius: 5px 5px 5px 5px;
+}
+#showScore {
+	width: 1150px;
+	height: 80px;
+	background: #FFF;
+	position: absolute;
+	bottom: 0px;
+	right: 110px;
+	font-family: "微软雅黑";
+	color: maroon;
+	font-size: large;
+	text-align: center;
+	line-height: 80px;
+	border: 5px dashed black;
+	border-radius: 5px 5px 5px 5px;
+}
+.showscore .btn_1 {
+	position: absolute;
+	bottom: 25px;
+	right: 200px;
+	width: 150px;
+	height: 30px;
+	font-size:18px;
+	font-family: "微软雅黑";
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: #EEC900;
+	margin: 5px 55px 0px 0px;/*元素之间的距离*/
+	border-radius: 15px 0px 15px 0px;
+}
+.showscore .btn_1:hover {
+	background: url(../img/scorebg.jpg);
+}
+.btn {
+	height: 50px;
+	width: 50px;
+	font-size: 40px;
+	position: absolute;
+	color: #FFF;
+	outline: none;
+	border-radius: 15px 15px 15px 15px;
+}
